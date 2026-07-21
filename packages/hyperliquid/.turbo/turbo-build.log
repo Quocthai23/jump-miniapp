@@ -1,0 +1,75 @@
+
+
+> @jump/hyperliquid@1.7.7 prebuild /home/c-labs/Code/jump-perps/packages/hyperliquid
+> pnpm run format
+
+
+> @jump/hyperliquid@1.7.7 format /home/c-labs/Code/jump-perps/packages/hyperliquid
+> prettier --write "src/**/*.{ts,tsx,js,jsx}"
+
+src/browser.ts[2K[1G[90msrc/browser.ts[39m 55ms (unchanged)
+src/global.d.ts[2K[1G[90msrc/global.d.ts[39m 4ms (unchanged)
+src/index.ts[2K[1G[90msrc/index.ts[39m 44ms (unchanged)
+src/rest/custom.ts[2K[1G[90msrc/rest/custom.ts[39m 30ms (unchanged)
+src/rest/exchange.ts[2K[1G[90msrc/rest/exchange.ts[39m 102ms (unchanged)
+src/rest/info.ts[2K[1G[90msrc/rest/info.ts[39m 15ms (unchanged)
+src/rest/info/general.ts[2K[1G[90msrc/rest/info/general.ts[39m 33ms (unchanged)
+src/rest/info/perpetuals.ts[2K[1G[90msrc/rest/info/perpetuals.ts[39m 7ms (unchanged)
+src/rest/info/spot.ts[2K[1G[90msrc/rest/info/spot.ts[39m 4ms (unchanged)
+src/types/constants.ts[2K[1G[90msrc/types/constants.ts[39m 6ms (unchanged)
+src/types/index.ts[2K[1G[90msrc/types/index.ts[39m 43ms (unchanged)
+src/utils/environment.ts[2K[1G[90msrc/utils/environment.ts[39m 3ms (unchanged)
+src/utils/errors.ts[2K[1G[90msrc/utils/errors.ts[39m 3ms (unchanged)
+src/utils/helpers.ts[2K[1G[90msrc/utils/helpers.ts[39m 4ms (unchanged)
+src/utils/nodeRequire.ts[2K[1G[90msrc/utils/nodeRequire.ts[39m 4ms (unchanged)
+src/utils/rateLimiter.ts[2K[1G[90msrc/utils/rateLimiter.ts[39m 3ms (unchanged)
+src/utils/signing.ts[2K[1G[90msrc/utils/signing.ts[39m 14ms (unchanged)
+src/utils/symbolConversion.ts[2K[1G[90msrc/utils/symbolConversion.ts[39m 22ms (unchanged)
+src/websocket/connection.ts[2K[1G[90msrc/websocket/connection.ts[39m 16ms (unchanged)
+src/websocket/payload-generator.ts[2K[1G[90msrc/websocket/payload-generator.ts[39m 25ms (unchanged)
+src/websocket/payload-manager.ts[2K[1G[90msrc/websocket/payload-manager.ts[39m 10ms (unchanged)
+src/websocket/subscriptions.ts[2K[1G[90msrc/websocket/subscriptions.ts[39m 95ms (unchanged)
+
+> @jump/hyperliquid@1.7.7 build /home/c-labs/Code/jump-perps/packages/hyperliquid
+> tsup
+
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: /home/c-labs/Code/jump-perps/packages/hyperliquid/tsup.config.ts
+[34mCLI[39m Target: node16
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+
+[90m[[90m2:21:05 PM[90m][39m [43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUsing direct eval with a bundler is not recommended and may cause problems[0m [direct-eval]
+
+    src/utils/nodeRequire.ts:34:15:
+[37m      34 │         return [32meval[37m('module');
+         ╵                [32m~~~~[0m
+
+  You can read more about direct eval and bundling here: [4mhttps://esbuild.github.io/link/direct-eval[0m
+
+
+
+
+[90m[[90m2:21:05 PM[90m][39m [43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUsing direct eval with a bundler is not recommended and may cause problems[0m [direct-eval]
+
+    src/utils/nodeRequire.ts:34:15:
+[37m      34 │         return [32meval[37m('module');
+         ╵                [32m~~~~[0m
+
+  You can read more about direct eval and bundling here: [4mhttps://esbuild.github.io/link/direct-eval[0m
+
+
+
+[32mESM[39m [1mdist/index.mjs     [22m[32m82.42 KB[39m
+[32mESM[39m [1mdist/index.mjs.map [22m[32m284.20 KB[39m
+[32mESM[39m ⚡️ Build success in 51ms
+[32mCJS[39m [1mdist/index.js     [22m[32m83.19 KB[39m
+[32mCJS[39m [1mdist/index.js.map [22m[32m284.89 KB[39m
+[32mCJS[39m ⚡️ Build success in 51ms
+DTS Build start
+DTS ⚡️ Build success in 1338ms
+DTS dist/index.d.ts  59.97 KB
+DTS dist/index.d.mts 59.97 KB

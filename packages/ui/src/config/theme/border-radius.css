@@ -1,0 +1,18 @@
+@utility rounded-0 {
+  border-radius: 0px;
+}
+@utility rounded-sm {
+  border-radius: 4px;
+}
+@utility rounded-md {
+  border-radius: 8px;
+}
+@utility rounded-lg {
+  border-radius: 12px;
+}
+@utility rounded-xl {
+  border-radius: 16px;
+}
+@utility rounded-2xl {
+  border-radius: 20px;
+}

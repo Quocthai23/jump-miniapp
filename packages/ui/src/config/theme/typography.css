@@ -1,0 +1,81 @@
+/*  typo display */
+@utility text-display-3xl {
+  @apply text-8xl leading-8xl font-bold;
+}
+
+@utility text-display-2xl {
+  @apply text-7xl leading-7xl font-bold;
+}
+
+@utility text-display-xl {
+  @apply text-6xl leading-6xl font-bold;
+}
+
+@utility text-display-lg {
+  @apply text-5xl leading-5xl font-bold;
+}
+
+/* typo heading */
+@utility text-heading-xl-* {
+  @apply text-4xl leading-4xl;
+  font-weight: --value(--font-weight-*);
+}
+@utility text-heading-lg-* {
+  @apply text-3xl leading-3xl;
+  font-weight: --value(--font-weight-*);
+}
+@utility text-heading-md-* {
+  @apply text-2xl leading-2xl;
+  font-weight: --value(--font-weight-*);
+}
+@utility text-heading-sm-* {
+  @apply text-xl leading-xl;
+  font-weight: --value(--font-weight-*);
+}
+@utility text-heading-xs-* {
+  @apply text-lg leading-lg;
+  font-weight: --value(--font-weight-*);
+}
+
+@utility text-body-lg-* {
+  @apply text-md leading-md;
+  font-weight: --value(--font-weight-*);
+}
+
+@utility text-body-md-* {
+  @apply text-sm leading-sm;
+  font-weight: --value(--font-weight-*);
+}
+@utility text-body-sm-* {
+  @apply text-xs leading-xs;
+  font-weight: --value(--font-weight-*);
+}
+@utility text-body-xs-* {
+  @apply text-2xs leading-2xs;
+  font-weight: --value(--font-weight-*);
+}
+
+/* typo button */
+@utility text-button-lg-* {
+  @apply text-md leading-md;
+  font-weight: --value(--font-weight-*);
+}
+@utility text-button-md-* {
+  @apply text-sm leading-sm;
+  font-weight: --value(--font-weight-*);
+}
+@utility text-button-sm-* {
+  @apply text-xs leading-xs;
+  font-weight: --value(--font-weight-*);
+}
+
+/* typo caption */
+@utility text-caption {
+  @apply text-xs leading-xs font-normal;
+}
+@utility text-overline {
+  @apply text-2xs leading-2xs font-semibold;
+}
+@utility text-code {
+  @apply text-sm leading-sm font-medium;
+}
